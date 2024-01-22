@@ -1,12 +1,12 @@
 import './App.css'
+import Homepage from './components/HomePage/Homepage'
 
 function App() {
 
   return (
-    <>
-      <h2>Hello</h2>
-      
-    </>
+    <div className='m-auto'>
+      <Homepage />      
+    </div>
   )
 }
 
