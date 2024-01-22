@@ -4,7 +4,7 @@ import Hero from './Hero'
 
 const Homepage = () => {
   return (
-    <div className='m-auto min-h-dvh'>
+    <div className='min-h-dvh | '>
       <Header />
       <Hero />
     </div>
