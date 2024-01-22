@@ -2,6 +2,7 @@ import './App.css'
 import Aboutpage from './components/About/Aboutpage'
 import Homepage from './components/HomePage/Homepage'
 import Proof from './components/SocialProof/Proof'
+import Testimonial from './components/Testimonials/Testimonial'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Homepage /> 
       <Proof />   
       <Aboutpage />
+      <Testimonial />
     </div>
   )
 }
