@@ -16,6 +16,7 @@ export default {
         'blue400': '#53B1FD',
         'blue600': '#1570EF',
         'blue700': '#175CD3',
+        'gray50': '#F9FAFB',
         'gray100': '#F2F4F7',
         'gray300': '#D0D5DD',
         'gray400': '#98A2B3',
