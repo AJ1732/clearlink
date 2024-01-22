@@ -1,10 +1,12 @@
 import React from 'react'
 import Header from './Header'
 import Hero from './Hero'
+import bg_pattern from '../../assets/img/bg_pattern.png'
 
 const Homepage = () => {
   return (
-    <div className='min-h-dvh | '>
+    <div className='relative | min-h-dvh | '>
+      <img className='absolute -top-10 m-auto -z-50' src={bg_pattern} />
       <Header />
       <Hero />
     </div>
