@@ -1,4 +1,5 @@
-# Clear Link: Effortless Video Recording and Crystal-Clear Conferencing
+# Clear Link:
+## Effortless Video Recording and Crystal-Clear Conferencing
 
 **Welcome to Clear Link, your gateway to effortless video conferencing and seamless recording!** Capture every moment, share important discussions, and shape the future of communication with us.
 
@@ -19,7 +20,7 @@ npm install react react-dom tailwindcss
 git clone _repository url_
 cd _repository directory_
 
-npm start
+npm run dev
 ```
 
 4. **Visit http://localhost:3000 in your browser to launch Clear Link!**
