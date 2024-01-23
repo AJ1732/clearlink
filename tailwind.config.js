@@ -18,6 +18,7 @@ export default {
         'blue700': '#175CD3',
         'gray50': '#F9FAFB',
         'gray100': '#F2F4F7',
+        'gray200': '#EAECF0',
         'gray300': '#D0D5DD',
         'gray400': '#98A2B3',
         'gray500': '#667085',
@@ -34,6 +35,21 @@ export default {
       fontFamily: {
         Inter: ['Inter', 'sans-serif'],
       },
+      animation: {
+        sweep: "sweep 1s ease-in-out infinite",
+      },
+      keyframes: {
+        sweep: {
+          "0%": {
+            opacity: 0,
+            marginTop: "-10px",
+          },
+          "100%": {
+            opacity: 1,
+            margintop: 0,
+          }
+        }
+      }
     },
   },
   plugins: [],

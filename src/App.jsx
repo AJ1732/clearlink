@@ -3,6 +3,7 @@ import Aboutpage from './components/About/Aboutpage'
 import Homepage from './components/HomePage/Homepage'
 import Proof from './components/SocialProof/Proof'
 import Testimonial from './components/Testimonials/Testimonial'
+import Faqpage from './components/FAQs/faqpage'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Proof />   
       <Aboutpage />
       <Testimonial />
+      <Faqpage />
     </div>
   )
 }
