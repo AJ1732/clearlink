@@ -10,7 +10,7 @@ import Footer from './components/Footer/Footer'
 function App() {
 
   return (
-    <div className='m-auto font-Inter | overflow-hidden'>
+    <div className='m-auto px-10 font-Inter | overflow-hidden'>
       <Homepage /> 
       <main>
         <Proof />   
