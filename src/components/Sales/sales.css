@@ -1,0 +1,17 @@
+.sales_list li {
+  /* list-style-image: url("../../assets/icon/check_circle.svg"); */
+  /* vertical-align: middle; */
+  
+  display: flex;
+  align-items: center;
+  list-style-position: inside;
+}
+
+.sales_list li::before {
+  content: "";
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-right: .75rem;
+  border-radius: 50%;
+  background: url("../../assets/icon/check_circle.svg");
+}
