@@ -6,9 +6,9 @@ import lock_unlocked from '../../assets/icon/lock_unlocked.svg'
 
 const Articles = () => {
   return (
-    <div className='grid grid-cols-2 gap-y-10 gap-x-[3.75rem] | max-w-[50rem]'>
+    <div className='grid grid-cols-1 gap-y-10 gap-x-[3.75rem] | max-w-[50rem] | md:grid-cols-2'>
       {/* FIRST ARTICLE */}
-      <article className='max-w-[22.5rem] | '>
+      <article className='max-w-[22.5rem] | grid place-items-center text-center | md:place-items-start md:text-start'>
         <div className='bg-gray50 | w-fit mb-5 p-4 | flex justify-center items-center | border border-gray200 rounded-full'>
           <img src={video_recorder} alt="" />
         </div>
@@ -17,7 +17,7 @@ const Articles = () => {
       </article>
 
       {/* SECOND ARTICLE */}
-      <article className='max-w-[22.5rem] | '>
+      <article className='max-w-[22.5rem] | grid place-items-center text-center | md:place-items-start md:text-start '>
         <div className='bg-gray50 | w-fit mb-5 p-4 | flex justify-center items-center | border border-gray200 rounded-full'>
           <img src={recording} alt="" />
         </div>
@@ -26,7 +26,7 @@ const Articles = () => {
       </article>
 
       {/* THIRD ARTICLE */}
-      <article className='max-w-[22.5rem] | '>
+      <article className='max-w-[22.5rem] | grid place-items-center text-center | md:place-items-start md:text-start '>
         <div className='bg-gray50 | w-fit mb-5 p-4 | flex justify-center items-center | border border-gray200 rounded-full'>
           <img src={calender} alt="" />
         </div>
@@ -35,7 +35,7 @@ const Articles = () => {
       </article>
 
       {/* FOURTH ARTICLE */}
-      <article className='max-w-[22.5rem] | '>
+      <article className='max-w-[22.5rem] | grid place-items-center text-center | md:place-items-start md:text-start '>
         <div className='bg-gray50 | w-fit mb-5 p-4 | flex justify-center items-center | border border-gray200 rounded-full'>
           <img src={lock_unlocked} alt="" />
         </div>

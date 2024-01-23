@@ -7,7 +7,7 @@ const Aboutpage = () => {
   return (
     <section className='max-w-[88rem] bg-white | m-auto py-24 | grid gap-20'>
       <Headline />
-      <div className='flex justify-between items-center'>
+      <div className='flex flex-col justify-between items-center gap-80 | lg:flex-row lg:gap-0'>
         <Articles />
         <Groupimg />
       </div>
