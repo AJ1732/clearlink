@@ -22,10 +22,10 @@ import settings from '../../assets/icon/settings.svg'
 
 const Hero = () => {
   return (
-    <section className='max-w-[88rem] m-auto pb-24 pt-40 | flex justify-between items-center'>
+    <section className='max-w-[88rem] m-auto pb-24 pt-40 px-8 | flex flex-col justify-between items-center gap-10 | sm:flex-row sm:gap-0 sm:px-0'>
       {/* HERO CONTENT */}
-      <div className='max-w-[48.8rem] | grid gap-12'>
-        <div className='grid gap-6'>
+      <div className='max-w-[48.8rem] | grid gap-12 place-items-center | sm:place-items-start'>
+        <div className='grid gap-6 text-center | sm:text-start'>
           <h2 className='mt-6 | text-[4rem] font-semibold leading-[1.15] | flex flex-col'>
             <span>Uniting the world,</span>
             <span>one video call at a time</span>
