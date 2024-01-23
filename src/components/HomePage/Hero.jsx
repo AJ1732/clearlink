@@ -45,7 +45,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className='flex justify-start items-center'>
+        <div className='flex flex-col justify-start items-center gap-4 | sm:flex-row sm:gap-0'>
           <div className='flex justify-start items-center | mr-4'>
             <img className='h-10 w-10' src={avatar_1} />
             <img className='h-10 w-10 | -m-4' src={avatar_2} />
