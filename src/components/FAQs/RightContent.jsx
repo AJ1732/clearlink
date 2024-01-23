@@ -3,7 +3,7 @@ import './faq.css'
 
 const RightContent = () => {
   return (
-    <div className='max-w-[48.8125rem] w-full px-8 | xl:px-0'>
+    <div className='max-w-[48.8125rem] w-full'>
       <details className='p-8 border-t border-gray200 | '>
         <summary className='text-gray900 text-xl font-semibold' >How many participants can join a ClearLink video conference?</summary>
         <p className='flex flex-col | text-gray600 text-lg | mt-2'>

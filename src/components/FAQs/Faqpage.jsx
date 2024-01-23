@@ -4,7 +4,7 @@ import RightContent from './RightContent'
 
 const Faqpage = () => {
   return (
-    <section className='max-w-[88rem] m-auto py-24 | flex flex-col justify-between items-center gap-32 xl:flex-row xl:items-start xl:gap-0'>
+    <section className='max-w-[88rem] m-auto py-24 px-8 | flex flex-col justify-between items-center gap-32 xl:flex-row xl:items-start xl:gap-0 xl:px-0'>
       <LeftContent />
       <RightContent />
     </section>
