@@ -39,7 +39,7 @@ const Header = () => {
       </nav>
 
       {/* NAV BUTTONS */}
-      <div className={`${open? `hidden`: `flex`} | flex-col justify-center items-center gap-2 | text-center leading-normal | sm:flex-row`}>
+      <div className={`${open? `flex`: `hidden`} | flex-col justify-center items-center gap-2 | text-center leading-normal | sm:flex-row`}>
         <button className='px-6 py-[0.875rem] | text-gray900 | border border-gray400 rounded-[6.25rem] '>Talk to Sales</button>
         <button className='px-6 py-[0.875rem] | text-white | bg-blue700 rounded-[6.25rem] '>Sign up for free</button>
       </div>
