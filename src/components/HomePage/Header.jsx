@@ -33,14 +33,13 @@ const Header = () => {
           </li>
           <li className='flex justify-center items-center gap-[0.38rem]'>
             <span>Pricing</span>
-            <img src={chev_down} />
           </li>
         </ul>
       </nav>
 
       {/* NAV BUTTONS */}
-      <div className={`${open? `flex`: `hidden`} | flex-col justify-center items-center gap-2 | text-center leading-normal | sm:flex-row`}>
-        <button className='px-6 py-[0.875rem] | text-gray900 | border border-gray400 rounded-[6.25rem] '>Talk to Sales</button>
+      <div className={`${open? `flex`: `hidden`} | flex-col justify-center items-center gap-2 | text-center leading-normal | xl:flex sm:flex-row`}>
+        <button className='px-6 py-[0.875rem] | text-gray900 | bg-white border border-gray400 rounded-[6.25rem] '>Talk to Sales</button>
         <button className='px-6 py-[0.875rem] | text-white | bg-blue700 rounded-[6.25rem] '>Sign up for free</button>
       </div>
 
