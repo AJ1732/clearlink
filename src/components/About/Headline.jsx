@@ -2,7 +2,7 @@ import React from 'react'
 
 const Headline = () => {
   return (
-    <div className='text-center px-8 | lg:text-start lg:px-0'>
+    <div className='text-center px-8 | xl:text-start xl:px-0'>
       <h3 className='text-blue700 text-lg font-semibold | mb-3'>The ClearLink Advantage</h3>
       <h2 className='text-gray800 text-5xl font-semibold | mb-5'>Why choose ClearLink?</h2>
       <p className='flex flex-col | text-gray500 text-2xl font-normal'>
