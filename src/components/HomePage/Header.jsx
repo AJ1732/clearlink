@@ -7,7 +7,7 @@ const Header = () => {
     <header className='max-w-[92rem] | m-auto mt-10 px-8 py-4 | font-semibold | bg-gray100 | flex justify-between items-center | border border-gray300 rounded-[6.25rem]'>
       {/* LOGO */}
       <div className='flex justify-center items-center gap-[0.63rem]'>
-        <img src={logo} alt="Logo" />
+        <img className='w-[1.5865rem] h-full' src={logo} alt="Logo" />
         <h1 className='text-gray900 text-2xl'>ClearLink<span className='text-bluedark400'>.</span></h1>
       </div>
 

@@ -3,7 +3,7 @@ import './sales.css'
 
 const LeftContent = () => {
   return (
-    <div>
+    <div className='mt-16'>
       <h3 className='text-gray900 text-5xl font-semibold | flex flex-col gap-3 | mb-8'>
         <span>Ready to clear the path to</span> 
         <span>perfect communication?</span>
