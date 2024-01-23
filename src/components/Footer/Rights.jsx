@@ -9,7 +9,7 @@ import youtube from '../../assets/icon/youtube.svg'
 const Rights = () => {
   return (
     <section className='bg-gray50 py-12'>
-      <div className='max-w-[88rem] m-auto | flex justify-between items-center'>
+      <div className='max-w-[88rem] m-auto px-8 | flex flex-col justify-between items-center gap-8 xl:flex-row xl:px-0 xl:gap-0'>
         <p className='text-gray500 text-base font-normal'>© 2023 ClearLink. All rights reserved.</p>
         <div className='flex justify-center items-center gap-6'>
           <img src={linkedin} alt="linkedin" />
