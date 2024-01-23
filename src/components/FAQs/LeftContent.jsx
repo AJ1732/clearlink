@@ -2,7 +2,7 @@ import React from 'react'
 
 const LeftContent = () => {
   return (
-    <div>
+    <div className='text-center | xl:text-start'>
       <h3 className='text-blue700 text-lg font-semibold | mb-3'>Support</h3>
       <h2 className='text-gray800 text-5xl font-semibold | mb-5'>FAQs</h2>
       <p className='flex flex-col | text-gray500 text-2xl font-normal'>
