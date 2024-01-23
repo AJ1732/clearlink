@@ -6,7 +6,7 @@ const Groupimg = () => {
   return (
     <div className='relative'>
       <img className='absolute z-50 -top-56 left-[3.7rem]' src={arrow} alt="" />
-      <img className='max-w-[34rem] h-full' src={image} />
+      <img className='max-w-[34rem]' src={image} />
     </div>
   )
 }
