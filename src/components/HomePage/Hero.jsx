@@ -26,7 +26,7 @@ const Hero = () => {
       {/* HERO CONTENT */}
       <div className='max-w-[48.8rem] | grid gap-12 place-items-center | sm:place-items-start'>
         <div className='grid gap-6 text-center | sm:text-start'>
-          <h2 className='mt-6 | text-[4rem] font-semibold leading-[1.15] | flex flex-col'>
+          <h2 className='mt-6 | text-[4rem] font-semibold leading-[1.15] | xl:flex xl:flex-col'>
             <span>Uniting the world,</span>
             <span>one video call at a time</span>
           </h2>

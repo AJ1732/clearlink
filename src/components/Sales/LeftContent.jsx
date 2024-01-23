@@ -3,9 +3,9 @@ import './sales.css'
 
 const LeftContent = () => {
   return (
-    <div className='mt-16'>
-      <h3 className='text-gray900 text-5xl font-semibold | flex flex-col gap-3 | mb-8'>
-        <span>Ready to clear the path to</span> 
+    <div className='mt-16 text-center flex flex-col justify-center items-center | xl:text-start xl:justify-start xl:items-start'>
+      <h3 className='text-gray900 text-5xl font-semibold | gap-3 | mb-8 xl:flex xl:flex-col'>
+        <span>Ready to clear the path to </span> 
         <span>perfect communication?</span>
       </h3>
       <ul className='sales_list | text-gray600 text-2xl | flex flex-col gap-5 | pl-4 mb-10'>
