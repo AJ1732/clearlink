@@ -8,9 +8,9 @@ import google_play_logo from '../../assets/img/google_play_logo.svg'
 
 const CTA = () => {
   return (
-    <div className='max-w-[88rem] m-auto | pt-24 pb-12 | flex justify-start items-start'>
+    <section className='max-w-[88rem] m-auto | pt-24 pb-12 | flex justify-start items-start'>
       {/* FOOTER HEADLINE */}
-      <section className='grid gap-8 | mr-[6.25rem]'>
+      <div className='grid gap-8 | mr-[6.25rem]'>
         <div className='flex justify-start items-center gap-[0.63rem]'>
           <img className='w-[1.5865rem] h-full' src={logo} alt="Logo" />
           <h1 className='text-gray900 text-2xl font-semibold'>ClearLink<span className='text-bluedark400'>.</span></h1>
@@ -21,10 +21,10 @@ const CTA = () => {
           <span>quality video conferencing. Join us in shaping</span>
           <span>the future of communication!</span>
         </p>
-      </section>
+      </div>
 
       {/* FOOTER NAV SECTION */}
-      <section className='flex justify-start items-start gap-8 | mr-8'>
+      <div className='flex justify-start items-start gap-8 | mr-8'>
         {/* Product Nav */}
         <nav className='grid gap-4 | min-w-40'>
           <h4 className='text-base text-gray500 font-semibold'>Product</h4>
@@ -73,10 +73,10 @@ const CTA = () => {
           </ul>
         </nav>
 
-      </section>
+      </div>
 
       {/* DOWNLOAD SECTION */}
-      <section className='grid gap-4'>
+      <div className='grid gap-4'>
         <h3 className='text-blue700 text-base font-semibold | mb-3'>Get the app</h3>
         <img src={apple_download} />
         <div className='h-10 w-[8.44rem] | bg-black | flex justify-center items-center gap-2 |border border-[#A6A6A6] rounded-[0.3125rem]'>
@@ -88,8 +88,8 @@ const CTA = () => {
         </div>
 
 
-      </section>
-    </div>
+      </div>
+    </section>
   )
 }
 
