@@ -8,23 +8,23 @@ import google_play_logo from '../../assets/img/google_play_logo.svg'
 
 const CTA = () => {
   return (
-    <section className='max-w-[88rem] m-auto | pt-24 pb-12 | flex justify-start items-start'>
+    <section className='max-w-[88rem] m-auto | pt-24 pb-12 | flex flex-col justify-center items-center gap-16 | text-center | xl:flex-row xl:justify-start xl:items-start xl:gap-0 xl:text-start'>
       {/* FOOTER HEADLINE */}
-      <div className='grid gap-8 | mr-[6.25rem]'>
-        <div className='flex justify-start items-center gap-[0.63rem]'>
+      <div className='grid gap-8 px-8 | xl:mr-[6.25rem] xl:px-0'>
+        <div className='flex justify-center items-center gap-[0.63rem] | xl:justify-start'>
           <img className='w-[1.5865rem] h-full' src={logo} alt="Logo" />
           <h1 className='text-gray900 text-2xl font-semibold'>ClearLink<span className='text-bluedark400'>.</span></h1>
         </div>
 
-        <p className='text-gray600 text-lg | flex flex-col'>
+        <p className='text-gray600 text-lg | xl:flex xl:flex-col '>
           <span>ClearLink is your gateway to effortless, high-</span>
-          <span>quality video conferencing. Join us in shaping</span>
+          <span>quality video conferencing. Join us in shaping </span>
           <span>the future of communication!</span>
         </p>
       </div>
 
       {/* FOOTER NAV SECTION */}
-      <div className='flex justify-start items-start gap-8 | mr-8'>
+      <div className='grid grid-cols-2 gap-12 | lg:grid-cols-4 xl:gap-8 xl:mr-8'>
         {/* Product Nav */}
         <nav className='grid gap-4 | min-w-40'>
           <h4 className='text-base text-gray500 font-semibold'>Product</h4>
