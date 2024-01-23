@@ -20,7 +20,7 @@ const Content = () => {
 
       <p className='text-gray900 text-[2.75rem] font-medium'>ClearLink has upgraded our remote meetings. High-quality video, screen sharing, and top-notch security make it essential for our team.</p>
 
-      <div className='w-full | flex justify-between items-center'>
+      <div className='w-full | flex flex-col justify-between items-center gap-8 | sm:flex-row sm:gap-0'>
         <div className='flex gap-3'>
           <img className='w-14 h-full mr-1' src={avatar_test} />
           <div>
