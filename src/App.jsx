@@ -3,7 +3,7 @@ import Aboutpage from './components/About/Aboutpage'
 import Homepage from './components/HomePage/Homepage'
 import Proof from './components/SocialProof/Proof'
 import Testimonial from './components/Testimonials/Testimonial'
-import Faqpage from './components/FAQs/faqpage'
+import Faqpage from './components/FAQs/Faqpage'
 import Salespage from './components/Sales/Salespage'
 import Footer from './components/Footer/Footer'
 
