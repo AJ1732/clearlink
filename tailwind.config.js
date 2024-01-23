@@ -35,21 +35,6 @@ export default {
       fontFamily: {
         Inter: ['Inter', 'sans-serif'],
       },
-      animation: {
-        sweep: "sweep 1s ease-in-out infinite",
-      },
-      keyframes: {
-        sweep: {
-          "0%": {
-            opacity: 0,
-            marginTop: "-10px",
-          },
-          "100%": {
-            opacity: 1,
-            margintop: 0,
-          }
-        }
-      }
     },
   },
   plugins: [],

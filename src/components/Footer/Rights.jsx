@@ -2,7 +2,9 @@ import React from 'react'
 
 const Rights = () => {
   return (
-    <div>Rights</div>
+    <div className='max-w-[88rem] m-auto '>
+      Rights
+    </div>
   )
 }
 
