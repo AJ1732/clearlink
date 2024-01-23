@@ -10,7 +10,7 @@ const Proof = () => {
   return (
     <section className=' max-w-[88rem] | m-auto mt-4 py-20 px-8 bg-white | grid place-items-center gap-12 | lg:px-0'>
       <h2 className='text-gray600 font-medium text-xl text-center'>Join 1,500+ companies already video conferencing the ClearLink way</h2>
-      <div className='flex flex-col gap-[4.31rem] | md:grid md:grid-cols-3 xl:flex-row'>
+      <div className='flex flex-col gap-[4.31rem] | md:grid md:grid-cols-3 xl:grid-cols-6 xl:flex-row'>
         <img src={shopify} />
         <img src={coinbase} />
         <img src={dropbox} />
