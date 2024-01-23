@@ -22,22 +22,22 @@ import settings from '../../assets/icon/settings.svg'
 
 const Hero = () => {
   return (
-    <section className='max-w-[88rem] m-auto pb-24 pt-40 px-8 | flex flex-col justify-between items-center gap-10 | lg:flex-row lg:gap-0 lg:px-0'>
+    <section className='max-w-[88rem] m-auto pb-24 pt-40 px-8 | flex flex-col justify-between items-center gap-20 | xl:flex-row xl:gap-0 xl:px-0'>
       {/* HERO CONTENT */}
       <div className='max-w-[48.8rem] | grid gap-12 place-items-center | sm:place-items-start'>
         <div className='grid gap-6 text-center | sm:text-start'>
-          <h2 className='mt-6 | text-[4rem] font-semibold leading-[1.15] | xl:flex xl:flex-col'>
-            <span>Uniting the world,</span>
+          <h2 className='mt-6 | text-[3.5rem] font-semibold leading-[1.15] | sm:text-[4rem] xl:flex xl:flex-col'>
+            <span>Uniting the world, </span>
             <span>one video call at a time</span>
           </h2>
           <p className='text-gray500 text-2xl font-normal | flex flex-col'>
             <span>Experience the future of communication with ClearLink –</span>
-            <span>where crystal-clear video conferencing meets</span>
+            <span>where crystal-clear video conferencing meets </span>
             <span>unparalleled simplicity.</span>
           </p>
         </div>
 
-        <div className='font-semibold | flex justify-start items-center gap-5'>
+        <div className='font-semibold | flex flex-col justify-start items-center gap-5 | sm:flex-row'>
           <button className='px-7 py-4 | text-white | bg-blue700 rounded-[6.25rem] '>Start your free trial</button>
           <div className='flex justify-start items-center gap-3'>
             <img src={robot} />

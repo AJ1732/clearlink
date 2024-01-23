@@ -5,7 +5,7 @@ import bg_pattern from '../../assets/img/bg_pattern.png'
 
 const Homepage = () => {
   return (
-    <div className='relative | | '>
+    <div className='relative | px-8 | xl:px-0 '>
       <img className='absolute m-auto -top-10 -z-50' src={bg_pattern} />
       <Header />
       <Hero />
