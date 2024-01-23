@@ -23,7 +23,7 @@ cd _repository directory_
 npm run dev
 ```
 
-4. **Visit http://localhost:3000 in your browser to launch Clear Link!**
+4. **Visit http://localhost:5173 in your browser to launch Clear Link!**
 
 ## Effortless Video Recording
 
@@ -60,7 +60,7 @@ Join us on our journey to revolutionize communication!
 
 **For more information:**
 
-* Website: 
+* Website: https://1732-clearlink.netlify.app/
 
 **Happy connecting and recording!**
 
